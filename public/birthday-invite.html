@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Birthday</title>
+   <style>
+      .gradient-background {
+      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite;
+      padding-bottom: 20px;
+      padding-top: 15px;
+      }
+
+      @keyframes gradient-animation {
+      0% {
+         background-position: 0% 50%;
+      }
+      50% {
+      background-position: 100% 50%;
+      }
+      100% {
+         background-position: 0% 50%;
+      }
+      }
+
+      body {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         
+      }
+      .container {
+         text-align: center;
+      }
+      .bottom {
+         margin-left: 25px;
+         margin-bottom: 25px;
+      }
+   </style>
+</head>
+<body>
+   <section id="title" class="gradient-background">
+      <div class="container">
+         <h1>It's My Birthday</h1>
+         <h3>On the 20th July</h3>
+      </div>
+      <img src="../assets/images/Happy-birthday-image.jpeg" height="400"/>
+         <div class="bottom">
+            <h3>What to bring</h3>
+            <ul>
+               <li>Baloons (I love boloons)</li>
+               <li>Cake (I'm really good at eating)</li>
+               <li>An appetite (There will be lots of food)</li>
+            </ul>
+            <h4 style="margin-bottom: 0;">This is where you need to go:
+
+            <!-- Example Google Maps Link -->
+            <a href="https://www.google.com/maps/place/Ved+vatika/@23.9595059,86.0670001,17z/data=!4m9!3m8!1s0x39f40fb42efec6e1:0xc7fca9434d4403a3!5m2!4m1!1i2!8m2!3d23.960008!4d86.0671779!16s%2Fg%2F11khqhz1c_?authuser=0&entry=ttu">Google map link</a></h4>
+         </div>
+   </section>
+</body>
+</html>
+

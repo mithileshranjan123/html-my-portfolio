@@ -1,0 +1,111 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <title>Ranjan's Portfolio</title>
+    <style>
+      .gradient-background {
+         background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+         background-size: 180% 180%;
+         animation: gradient-animation 18s ease infinite;
+         padding-bottom: 20px;
+         padding-top: 20px;
+         }
+
+         @keyframes gradient-animation {
+         0% {
+            background-position: 0% 50%;
+         }
+         50% {
+            background-position: 100% 50%;
+         }
+         100% {
+            background-position: 0% 50%;
+         }
+         }
+         .header {
+            margin-left: 150px;
+            margin-bottom: 25px;
+            margin-right: 100px;
+            color: white;
+            display: grid;
+            grid-template-columns: 1fr .19fr;
+            grid-template-rows: 20px 20px;
+            gap: 20px;
+         }
+
+         .image-bodder {
+            background-color: black;
+            height: 303px;
+            width: 578px;
+            padding: 10px;
+            margin: 10px;
+         }
+      
+         .container2 {
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;
+            margin-bottom: 150px;
+         }
+         .container1 {
+            display: flex;
+            justify-content: center;
+         }
+         .fotter1 {
+            margin-left: 150px;
+            margin-top: -24px;
+            justify-content: center;
+         }
+         
+         
+    </style>
+ </head>
+ <body>
+   <section class="gradient-background">
+      <div class="header">
+         <h1>Mithilesh Kumar Ranjan's Portfolio</h1>
+         <h2><a href="./public/about.html" class="nav-link px-2 text-body-secondary">  About Me</a></h2>
+         <h2>I'm a Python Developer and Data Analyst </h2>
+         <h2><a href="./public/contact.html" class="nav-link px-2 text-body-secondary">Contact Me </a></h2>
+      </div>
+   </section>
+   <div class="container1">
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+         <a href="./public/movie-ranking.html">Movie Ranking Project</a>
+      </h1>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+         <div class="image-bodder">
+        <div class="container px-5">
+          <img src="./assets/images/movies_best.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="image" height="300" loading="lazy">
+        </div>
+      </div>
+      </div>
+    </div>
+   </div>
+   <div class="container2">
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">
+         <a href="./public/birthday-invite.html">Birthday Invite Project</a>
+      </h1>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+         <div class="image-bodder">
+        <div class="container px-5">
+          <img src="./assets/images/birthday.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="image" height="300" loading="lazy">
+        </div>
+      </div>
+      </div>
+    </div>
+   </div>
+   
+   <section class="gradient-background">
+      <div class="fotter1">
+         <footer class="py-3 my-4">
+            <p class="text-center text-body-secondary">© 2024</p>
+         </footer> 
+      </div>
+   </section>
+ </body>
+ </html>
+ 
