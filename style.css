@@ -52,4 +52,35 @@
        justify-content: center;
     }
     
-    
+    .gradient-background {
+        background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        }
+
+        @keyframes gradient-animation {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+        }
+
+        .header1 {
+        font-family: "Honk", system-ui;
+        font-optical-sizing: auto;
+        font-style: bold;
+        font-variation-settings:
+            "MORF" 00,
+            "SHLN" 61.;
+        }
+        
+        
+        
+        
